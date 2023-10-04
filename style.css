@@ -27,4 +27,24 @@ html,body
   object-fit : cover;
 }
 
-#page1>
+#page1>nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+}
+
+#page1>nav>img{
+  margin-top: -0.7vw;
+  width: 3%;
+}
+#right-nav>button{
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: blue;
+  border: 1px solid #fff;
+  color: #fff;
+}
